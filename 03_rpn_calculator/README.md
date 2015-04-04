@@ -23,6 +23,9 @@ Using the new pattern described above, you will create an RPN Calculator object 
 Review the following videos to gain a better understanding of the TestSpec.
 
 - TestSpec - [What is an RPN Calculator](http://www.youtube.com/watch?v=PoI1sX9F4tA)
+
+Pop Pop Operator Push <---- Basically it. 
+
 - TestSpec - ['throw' Errors and TestSpec Overview](http://www.youtube.com/watch?v=7_Auxy_mRfM)]
 
 
