@@ -59,8 +59,10 @@ function gridGenerator(int)
 }
 
 
-//Ok. This code works in JS consoles but test does not seem to be detecting it.
-//I'm also running out of time so I'll leave it like this.
+//This code is horribly unoptimized/inefficient; optimize later. I
+//still have no idea what a big pythoThagoTripo is supposed to be
+//but I assume it's the area of the sqaure created by forming 4
+//of the triangles together. 
 function largestTriplet(num){
 	//I'm going to rename everything to a,b,c for readability.
 	var a=1; 
@@ -71,7 +73,8 @@ function largestTriplet(num){
 	var answerC = 0;
 	var largest = 0;
 	var answer = [];
-	//no side can be 0 or identical to another side
+	//no side can be 0 or identical to another side. And we're
+	//going to count down from the given C in case C is a failure. 
 	for ( c ; c > 1 ; c--){
 		for (a = 1; a < c; a++){
 				for(b = 1; b < c; b++){
@@ -101,6 +104,7 @@ function largestTriplet(num){
 	answer.push(answerC);
 	return answer;
 }
+
 function join(arr,delim){
 	var leString = "";
 	for (var i = 0; i < arr.length;i++)
