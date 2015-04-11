@@ -140,6 +140,29 @@ describe('type', function() {
   });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 // Stringify should convert anything into a string.
 ///
