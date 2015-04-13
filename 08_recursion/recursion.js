@@ -98,7 +98,7 @@ function stringify(foo){
 		for(var i  in foo){
 			total+= '\"'+i+'\"' +': '+ stringify(foo[i])+',';
 		}
-		total = total.slice(0, total.length-1);
+		total = total.slice(0,-1);
 		total += '}';
 	}
 
